@@ -43,7 +43,7 @@ false - true
 // Actual: -1
 
 !true
-// Prediction: 0
+// Prediction: false
 // Actual: false
 
 3 - 4
