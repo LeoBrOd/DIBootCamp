@@ -1,0 +1,49 @@
+// Exercise 1
+let x = 5;
+let y = 2;
+if (x>y) {
+    console.log("x is the biggest number");
+    }
+    else {
+        console.log("y is the biggest number");
+    }
+
+// Exercise 2
+let Dog = "Chihuahua"
+console.log(Dog.length);
+console.log(Dog.toUpperCase());
+console.log(Dog.toLowerCase());
+let newDog = prompt("What kind of dog you have?")
+if (newDog===Dog){
+    alert("I love Chihuahuas, it’s my favorite dog breed")
+}
+else{"I dont care, I prefer cats"}
+
+// Exercise 3
+let num = parseInt(prompt("Please choose a number"))
+if (num%2==0) {
+    alert(`${num} is an even number`)
+} 
+else  if (num !=0 ) {
+    alert(`${num} is an odd number`)
+}
+else {
+    alert("0 isn`t dividable" )
+}
+
+// Exercise 4
+let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"]
+switch (users.length) {
+    case 0 :
+        console.log("no one is online");
+        break;
+    case 1 :
+        console.log(`${users[0]} is online`);
+        break;
+    case online=2 :
+        console.log(`${users[0]} and ${users[1]} is online`);
+        break;
+    default:
+        console.log(`${users[0]}, ${users[1]} and ${users.length-2} more is online`);
+        break;
+}
