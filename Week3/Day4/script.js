@@ -41,9 +41,9 @@ switch (users.length) {
         console.log(`${users[0]} is online`);
         break;
     case online=2 :
-        console.log(`${users[0]} and ${users[1]} is online`);
+        console.log(`${users[0]} and ${users[1]} are online`);
         break;
     default:
-        console.log(`${users[0]}, ${users[1]} and ${users.length-2} more is online`);
+        console.log(`${users[0]}, ${users[1]} and ${users.length-2} more are online`);
         break;
 }
