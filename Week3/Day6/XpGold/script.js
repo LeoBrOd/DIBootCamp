@@ -28,7 +28,8 @@ if (age[i]>age[i-1]) {
     max=age[i]}
 }
 console.log(max);
-for (let i = 0; i < age.length; i++) {
+let sum=0
+for (let i = 0; i < age.length; i++){
 sum += age[i]
 }
 console.log(sum);
